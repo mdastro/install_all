@@ -16,11 +16,31 @@ echo " Installing aptitude."
 sudo apt-get install aptitude
 
 echo " Installing Python and Python Libs, graphical editors, latex, etc."
-sudo aptitude install python-dev python-numpy python-scipy python-matplotlib \
- python-pyfits python-pip ipython vim vim-addon-manager vim-python-jedi \
- vlc kile git inkscape gimp texlive-latex-base-doc texlive-latex-recommended \
- texlive-latex-recommended-doc texlive-latex-extra texlive-latex-extra-doc \
- guake okular
+sudo aptitude install \
+ python-dev \
+ python-numpy \
+ python-scipy \
+ python-matplotlib \
+ python-pyfits \
+ python-pip \
+ ipython \
+ vim \
+ vim-addon-manager \
+ vim-python-jedi \
+ vlc \
+ git \
+ inkscape \
+ gimp \
+ texlive-latex-base-doc \
+ texlive-latex-recommended \
+ texlive-latex-recommended-doc \
+ texlive-latex-extra \
+ texlive-latex-extra-doc \
+ kile \
+ guake \
+ okular \
+ remmina remmina-plugin-vnc \
+ nfs-common nfs-client nfs-server
 
 echo " Downloading and installing QFitsView for FITS data visualization." 
 wget http://www.mpe.mpg.de/~ott/QFitsView/QFitsView_3.1.linux64 
