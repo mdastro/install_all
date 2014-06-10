@@ -29,8 +29,7 @@ sudo aptitude install \
  vim-python-jedi \
  vlc \
  git \
- inkscape \
- gimp \
+ inkscape gimp gphoto2 \
  texlive-latex-base-doc \
  texlive-latex-recommended \
  texlive-latex-recommended-doc \
@@ -40,7 +39,8 @@ sudo aptitude install \
  guake \
  okular \
  remmina remmina-plugin-vnc \
- nfs-common nfs-client nfs-server
+ nfs-common nfs-client nfs-server \
+ saods9
 
 echo " Downloading and installing QFitsView for FITS data visualization." 
 wget http://www.mpe.mpg.de/~ott/QFitsView/QFitsView_3.1.linux64 
@@ -53,3 +53,5 @@ sudo pip install numpy --upgrade
 sudo pip install scipy --upgrade
 sudo pip install matplotlib --upgrade
 sudo pip install astropy --upgrade
+sudo pip install watchdog --upgrade
+sudo pip install argparse --upgrade
