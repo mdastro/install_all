@@ -35,6 +35,7 @@ sudo aptitude install \
  texlive-latex-recommended-doc \
  texlive-latex-extra \
  texlive-latex-extra-doc \
+ texlive-lang-portuguese \
  kile \
  guake \
  okular \
