@@ -41,7 +41,8 @@ sudo aptitude install \
  okular \
  remmina remmina-plugin-vnc \
  nfs-common nfs-client nfs-server \
- saods9
+ saods9 \
+ vpnc
 
 echo " Downloading and installing QFitsView for FITS data visualization." 
 wget http://www.mpe.mpg.de/~ott/QFitsView/QFitsView_3.1.linux64 
