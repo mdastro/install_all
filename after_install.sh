@@ -42,7 +42,15 @@ sudo aptitude install \
  remmina remmina-plugin-vnc \
  nfs-common nfs-client nfs-server \
  saods9 \
- vpnc
+ vpnc \
+ xorg-dev \
+ libx11-dev
+
+echo " Installing Oracle Java"
+sudo apt-get purge openjdk*
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java7-installer
 
 echo " Downloading and installing QFitsView for FITS data visualization." 
 wget http://www.mpe.mpg.de/~ott/QFitsView/QFitsView_3.1.linux64 
