@@ -45,7 +45,9 @@ sudo aptitude install \
  saods9 \
  vpnc \
  xorg-dev \
- libx11-dev
+ libx11-dev \
+ virtualbox virtualbox-guest-utils \
+ p7zip-full atool 
 
 echo " Installing Oracle Java"
 sudo apt-get purge openjdk*
