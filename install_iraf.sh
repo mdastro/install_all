@@ -5,11 +5,20 @@
 ## Run this script in a terminal once you have finished your Ubuntu 14.04 or
 ## Linux Mint 17 installation to install IRAF in your system.
 ##
+reset
 echo ""
-echo " IRAF Install Script."
-echo " Department of Astronomy - IAG/USP"
-echo " by Bruno Quint <bquint at astro.iag.usp.br"
+echo "                    IRAF Install Script."
+echo "              Department of Astronomy - IAG/USP"
+echo "          by Bruno Quint <bquint at astro.iag.usp.br"
 echo ""
+
+## Are you root?
+if [[ $EUID -ne 0 ]]; then
+    echo " I'm sorry but only root can run this script."
+    echo " Leaving now."
+    echo ""
+    exit 1
+fi
 
 ## Test if there is a previous IRAF installation in your machine first
 
@@ -24,6 +33,8 @@ echo ""
 ## Download files from IRAF's webside
 
 ## Install it
+apt-get install csh
+ln -s /opt/iraf/x11iraf/xgterm /usr/bin/xgterm
 
 ## Do you want to remove installation files?
 
