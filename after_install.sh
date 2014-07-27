@@ -37,6 +37,7 @@ sudo aptitude install \
  texlive-latex-extra-doc \
  texlive-lang-portuguese \
  texlive-science \
+ latex-beamer \
  kile \
  guake \
  okular \
