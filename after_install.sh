@@ -17,7 +17,8 @@ sudo apt-get install aptitude
 
 echo " Installing Python and Python Libs, graphical editors, latex, etc."
 sudo aptitude install \
- python-dev python-numpy python-scipy python-matplotlib python-pyfits python-pip \
+ python-dev python-pip python-tk \
+ python-numpy python-scipy python-matplotlib python-pyfits  \
  ipython \
  vim vim-addon-manager vim-python-jedi \
  vlc \
