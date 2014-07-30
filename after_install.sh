@@ -17,37 +17,23 @@ sudo apt-get install aptitude
 
 echo " Installing Python and Python Libs, graphical editors, latex, etc."
 sudo aptitude install \
- python-dev \
- python-numpy \
- python-scipy \
- python-matplotlib \
- python-pyfits \
- python-pip \
+ python-dev python-numpy python-scipy python-matplotlib python-pyfits python-pip \
  ipython \
- vim \
- vim-addon-manager \
- vim-python-jedi \
+ vim vim-addon-manager vim-python-jedi \
  vlc \
  git \
  inkscape gimp gphoto2 \
- texlive-latex-base-doc \
- texlive-latex-recommended \
- texlive-latex-recommended-doc \
- texlive-latex-extra \
- texlive-latex-extra-doc \
- texlive-lang-portuguese \
- texlive-science \
- latex-beamer \
- kile \
+ texlive-latex-base-doc texlive-latex-recommended texlive-latex-recommended-doc \
+ texlive-latex-extra texlive-latex-extra-doc texlive-lang-portuguese texlive-science \
+ latex-beamer kile \
  guake \
  okular \
  remmina remmina-plugin-vnc \
  nfs-common nfs-client nfs-server \
  csh saods9 \
  vpnc \
- xorg-dev \
- libx11-dev \
- virtualbox virtualbox-guest-utils \
+ xorg-dev libx11-dev \
+ dropbox virtualbox virtualbox-guest-utils \
  p7zip-full atool 
 
 echo ""
