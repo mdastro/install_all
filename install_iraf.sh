@@ -34,8 +34,13 @@ fi
 
 ## Install it
 apt-get install csh
-ln -s /opt/iraf/x11iraf/xgterm /usr/bin/xgterm
+ln -s /iraf/iraf/x11iraf/xgterm /usr/bin/xgterm
 
 ## Do you want to remove installation files?
 
+## Installing UREKA package which contains STSDAS
+mkdir -p /iraf/iraf/downloads
+cd /iraf/iraf/downloads
+wget http://ssb.stsci.edu/ureka/1.4.1/install_ureka_1.4.1
+chmod a+x install_ureka_1.4.1
 
