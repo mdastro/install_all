@@ -10,34 +10,64 @@ echo ""
 echo " After Install Script."
 echo " Department of Astronomy - IAG/USP"
 echo " Updating files first."
-sudo apt-get update
+apt-get update
 
 echo " Installing aptitude."
-sudo apt-get install aptitude
+apt-get install aptitude
 
 echo " Installing Python and Python Libs, graphical editors, latex, etc."
-sudo aptitude install \
- python-dev python-pip python-tk \ # Python Libs
- python-numpy python-scipy python-matplotlib python-pyfits  \ # Python Libs
- ipython \ # iPython
- vim vim-addon-manager vim-python-jedi \ # Text editor on terminals
- vlc \ # Music/Video Player
- git \ # Version controler
- inkscape gimp gphoto2 \ # Photo/Drawing
- texlive-latex-base-doc texlive-latex-recommended texlive-latex-recommended-doc \ # TeX
- texlive-latex-extra texlive-latex-extra-doc texlive-lang-portuguese texlive-science \ # TeX
- latex-beamer kile \ # TeX
- guake \ # Desktop terminal 
- okular \ # PDF reader
- remmina remmina-plugin-vnc \ # VNC
- nfs-common nfs-client nfs-server \ # Mount folders/disks over the network
- csh saods9 \ # Before installing IRAF
- vpnc \ # Cisco VPN client
- xorg-dev libx11-dev \ # Before install PyRAF
- dropbox virtualbox virtualbox-guest-utils \ # Drop and Virtual Boxes
- p7zip-full atool \
- mendeleydesktop # Documents/References handling
+# Python Libs
+aptitude install python-dev python-pip python-tk python-numpy python-scipy python-matplotlib python-pyfits ipython ipython-notebook
+
+# Text editor on terminals
+
+aptitude install vim vim-addon-manager vim-python-jedi 
+# Music/Video Player
+aptitude install vlc 
+
+# Version controler
+aptitude install git 
+
+# Photo/Drawing
+aptitude install inkscape gimp gphoto2 ufraw gimp-ufraw
+
+# TeX
+aptitude install texlive-latex-base-doc texlive-latex-recommended texlive-latex-recommended-doc texlive-latex-extra texlive-latex-extra-doc texlive-lang-portuguese texlive-science latex-beamer kile 
+
+# Desktop terminal 
+aptitude install guake 
+
+# PDF reader
+aptitude install okular 
+
+# VNC
+aptitude install remmina remmina-plugin-vnc 
+
+# Mount folders/disks over the network
+aptitude install nfs-common nfs-client nfs-server  
+
+# Before installing IRAF
+aptitude install csh saods9
+
+# Cisco VPN client
+aptitude install vpnc  
+
+# Before install PyRAF
+aptitude install xorg-dev libx11-dev 
+
+# Drop and Virtual Boxes
+aptitude install dropbox virtualbox virtualbox-guest-utils 
+
+# Zip and Unzip
+aptitude install p7zip-full atool
+
+# Documents/References handling
+aptitude install mendeleydesktop 
  
+# Web Design
+aptitude install npm node
+npm install -g bower
+bower install material-design-icons
 
 echo ""
 echo " Installing/Upgrading Python Libraries"
