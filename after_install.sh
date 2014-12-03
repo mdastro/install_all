@@ -32,7 +32,7 @@ aptitude install --yes --force-yes git
 aptitude install --yes --force-yes inkscape gimp gphoto2 ufraw gimp-ufraw
 
 # TeX
-aptitude install --yes --force-yes texlive-latex-base-doc texlive-latex-recommended texlive-latex-recommended-doc texlive-latex-extra texlive-latex-extra-doc texlive-lang-portuguese texlive-science latex-beamer kile 
+aptitude install --yes --force-yes texlive-latex-base-doc texlive-latex-recommended texlive-latex-recommended-doc texlive-latex-extra texlive-latex-extra-doc texlive-lang-portuguese texlive-science latex-beamer kile texlive-latex3  texlive-latex-extra texlive-latex3  texlive-latex-extra texlive-math-extra texlive-math-extra
 
 # Desktop terminal 
 aptitude install --yes --force-yes guake 
