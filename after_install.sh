@@ -19,6 +19,9 @@ echo " Installing Python and Python Libs, graphical editors, latex, etc."
 # Python Libs
 aptitude install --yes --force-yes python-dev python-pip python-tk python-numpy python-scipy python-matplotlib python-pyfits ipython ipython-notebook
 
+# R (@cran.r)
+aptitude install --yes --force-yes r-base
+
 # Text editor on terminals
 aptitude install --yes --force-yes vim vim-addon-manager vim-python-jedi 
 
