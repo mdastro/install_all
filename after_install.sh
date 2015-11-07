@@ -81,6 +81,16 @@ pip install matplotlib --upgrade
 pip install astropy --upgrade
 pip install watchdog --upgrade
 pip install argparse --upgrade
+pip install pandas --upgrade
+pip install statsmodels --upgrade
+pip install seaborn --upgrade
+pip install --no-deps astropy
+
+echo ""
+echo " Installing R"
+echo ""
+sudo apt-get update
+sudo apt-get install r-base
 
 echo ""
 echo " Installing Oracle Java"
