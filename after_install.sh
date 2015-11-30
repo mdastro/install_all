@@ -84,7 +84,6 @@ pip install seaborn --upgrade
 pip install cython --upgrade
 pip install pymc --upgrade
 pip install pystan --upgrade
-pip install --no-deps astropy
 
 echo ""
 echo " Installing R"
