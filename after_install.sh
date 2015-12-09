@@ -18,6 +18,7 @@ apt-get install --yes --force-yes aptitude
 echo " Installing Python and Python Libs, graphical editors, latex, etc."
 # Python Libs
 aptitude install --yes --force-yes python-dev python-pip python-tk python-numpy python-scipy python-matplotlib python-pyfits ipython ipython-notebook
+apt-get install python-pip
 
 # Text editor on terminals
 aptitude install --yes --force-yes vim vim-addon-manager vim-python-jedi 
@@ -84,6 +85,7 @@ pip install seaborn --upgrade
 pip install cython --upgrade
 pip install pymc --upgrade
 pip install pystan --upgrade
+#pip install pytables --upgrade
 
 echo ""
 echo " Installing R"
