@@ -91,13 +91,7 @@ echo ""
 echo " Installing R"
 echo ""
 sudo apt-get install r-base
-
-echo ""
-echo "Installing RStudio"
-echo ""
-sudo apt-get install gdebi-core
-wget https://download2.rstudio.org/rstudio-server-0.99.903-amd64.deb
-sudo gdebi rstudio-server-0.99.903-amd64.deb
+# For installing RStudio, download it directly from the website
 
 echo ""
 echo " Installing Oracle Java"
