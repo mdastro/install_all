@@ -29,7 +29,7 @@ pip install cython
 pip install pymc
 pip install pystan
 pip install pyfits
-pip install pyjags
+pip install pyjags #must install jags first
 
 # Version controler
 apt-get install git 
